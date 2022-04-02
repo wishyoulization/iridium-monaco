@@ -15,6 +15,9 @@ const CodeEditor = (props) => {
         theme: 'iridiumtheme',
         automaticLayout: false,
         scrollBeyondLastLine: false,
+        scrollbar: {
+          alwaysConsumeMouseWheel: false,
+        },
       });
 
       const update_height = () => {
